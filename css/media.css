@@ -1,0 +1,12 @@
+@media screen and (max-width:1550px){
+    .slavic_mif img{
+        width: 40%;
+        height: 40%;
+      }
+}
+@media screen and (max-width:1000px){
+    .slavic_mif img{
+        width: 50%;
+        height: 50%;
+      }
+}

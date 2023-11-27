@@ -1,0 +1,24 @@
+.slavic_world{
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .slavic_mif{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px; 
+  } 
+  .slavic_mif img{
+    max-width: 100%;
+    width: 30%;
+    height: 30%;
+  }
+  
+  .text_mif{
+    width: 50%;
+    padding-top: 25px;
+  }
