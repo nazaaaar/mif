@@ -26,11 +26,17 @@
     --gradient-end: rgba(240, 39, 134, 1);
     /* Шрифти та їх розміри */
 
-    --font-size-h1: 128px;
+
+    /* --font-size-h1: 128px;
     --font-size-h2: 74px;    
     --font-size-h3: 52px;
     --font-size-h4: 36px;
-    --font-size-h5: 28px;
+    --font-size-h5: 28px; */
+    --font-size-h1: 6.6vw;
+    --font-size-h2: 3.8vw;    
+    --font-size-h3: 2.7vw;
+    --font-size-h4: 1.8vw;
+    --font-size-h5: 1.4vw;
 
 
 }
