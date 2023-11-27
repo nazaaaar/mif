@@ -1,0 +1,107 @@
+@import url(base.css);
+@import url(reset.css);
+@import url(header.css);
+
+.body-main{
+  background: var(--color-dark);
+  color: var(--color-light);
+}
+h1{
+  font-family: Misto;
+  font-size: var(--font-size-h1);
+  font-weight: 400;
+  line-height: 141px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+h2{
+  font-family: Misto;
+  font-size: var(--font-size-h2);
+  font-weight: 400;
+  line-height: 81px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+h3{
+  font-family: Kharkiv Tone;
+  font-size: var(--font-size-h3);
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+h4{
+  font-family: Kharkiv Tone;
+  font-size: var(--font-size-h4);
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+h5{
+  font-family: Kharkiv Tone;
+  font-size: var(--font-size-h5);
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.title{
+  padding-top: 291px;
+  padding-left: 250px;
+  padding-right: 250px;
+
+}
+.div__rigth{
+  float: right;
+}
+.intro{
+  margin-top: 240px;
+  /* background: rgb(203,143,255);
+  background: linear-gradient(90deg, rgba(203,143,255,1) 0%, rgba(240,39,134,1) 100%); */
+  border: 5px solid;
+  border-image: linear-gradient(to right, rgba(203,143,255,1), rgba(240,39,134,1))1;
+  padding: 0.25em 0.5em;
+  box-shadow: 
+  1px 1px 0px 0px rgba(240,39,134,1),
+  2px 2px 0px 0px rgba(240,39,134,1),
+  3px 3px 0px 0px rgba(240,39,134,1),
+  4px 4px 0px 0px rgba(240,39,134,1),
+  5px 5px 0px 0px rgba(240,39,134,1),
+  6px 6px 0px 0px rgba(240,39,134,1); /* Додайте бажаний зсув вправо для останнього шару */
+}
+
+
+
+.button-54 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+  }
+.text_mif{
+  padding-bottom: 120px;
+}  
+  .button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+    transition: 1.7s;
+  }
+  
+  @media (min-width: 768px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
+  }

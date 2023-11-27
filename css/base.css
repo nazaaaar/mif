@@ -1,0 +1,36 @@
+/*імпортуємо шрифти*/
+@font-face {
+    font-family: "Misto";
+    src:  
+      url("../font/Misto_Web/Web/Misto.woff") format("woff"),
+  
+      url("../font/Misto_Web/Web/Misto.woff2") format("woff2")  
+}
+@font-face {
+    font-family: "Kharkiv Tone";
+    src:  
+      url("../font/Kharkiv/Tone.woff") format("woff"),
+  
+      url("../font/Kharkiv/Kharkiv Tone 04.10.2020.ttf") format("truetype")  
+}
+
+:root{
+    /* Кольори */
+    --color-dark:#1B062B;
+    --color-pink-main:#F02786;
+    --color-pink-light:#F080B6;
+    --color-purple:#CB8FFF;
+    --color-light:#FFE4F1;
+    /* ГРАДІЄНТ */
+    --gradient-start: rgba(203, 143, 255, 1);
+    --gradient-end: rgba(240, 39, 134, 1);
+    /* Шрифти та їх розміри */
+
+    --font-size-h1: 128px;
+    --font-size-h2: 74px;    
+    --font-size-h3: 52px;
+    --font-size-h4: 36px;
+    --font-size-h5: 28px;
+
+
+}

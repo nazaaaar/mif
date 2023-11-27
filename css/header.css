@@ -1,0 +1,16 @@
+.main_nav{
+    float: right;
+    font-family: Kharkiv Tone;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 36px;
+    padding-bottom: 36px;
+  
+  }
+  .main_nav ul li {
+    display: inline-block;
+    padding: 0px 80px 0px 0px;
+  }
