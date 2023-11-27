@@ -1,7 +1,7 @@
 @import url(base.css);
 @import url(reset.css);
 @import url(header.css);
-
+@import url(main.css);
 .body-main{
   background: var(--color-dark);
   color: var(--color-light);
@@ -46,30 +46,18 @@ h5{
   letter-spacing: 0em;
   text-align: left;
 }
-.title{
-  padding-top: 291px;
-  padding-left: 250px;
-  padding-right: 250px;
 
+.slavic_world{
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.div__rigth{
-  float: right;
-}
-.intro{
-  margin-top: 240px;
-  /* background: rgb(203,143,255);
-  background: linear-gradient(90deg, rgba(203,143,255,1) 0%, rgba(240,39,134,1) 100%); */
-  border: 5px solid;
-  border-image: linear-gradient(to right, rgba(203,143,255,1), rgba(240,39,134,1))1;
-  padding: 0.25em 0.5em;
-  box-shadow: 
-  1px 1px 0px 0px rgba(240,39,134,1),
-  2px 2px 0px 0px rgba(240,39,134,1),
-  3px 3px 0px 0px rgba(240,39,134,1),
-  4px 4px 0px 0px rgba(240,39,134,1),
-  5px 5px 0px 0px rgba(240,39,134,1),
-  6px 6px 0px 0px rgba(240,39,134,1); /* Додайте бажаний зсув вправо для останнього шару */
-}
+
+
+
+
 
 
 
