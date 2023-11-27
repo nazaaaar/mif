@@ -16,7 +16,11 @@
 .main_nav ul li a{
   color: var(--color-light);
 }
-
+.main_nav ul li a:hover{
+  color:var(--color-pink-light);
+  text-decoration: underline;
+  transition: 0.7s;
+}
 
 
 .title{
