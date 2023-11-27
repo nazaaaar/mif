@@ -1,3 +1,5 @@
+/* !page1 */
+
 .main_nav{
   display: flex;
   justify-content: flex-end;
@@ -17,7 +19,7 @@
   color: var(--color-light);
 }
 .main_nav ul li a:hover{
-  color:var(--color-pink-light);
+  color: var(--color-pink-light);
   text-decoration: underline;
   transition: 0.7s;
 }
