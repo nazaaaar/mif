@@ -8,5 +8,8 @@
     .slavic_mif img{
         width: 50%;
         height: 50%;
-      }
+    }
+    .footer{
+        height: 160px;
+    }
 }

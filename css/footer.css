@@ -1,0 +1,30 @@
+.footer{
+    background: var(--color-pink-main);
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 230px;
+}
+.footer_nav{
+    font-family: Kharkiv Tone;
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    padding-top: 36px;
+    padding-bottom: 36px;  
+}
+.footer_nav ul li{
+    display: inline-block;
+    padding: 0px 40px 0px 0px;
+}
+.footer_nav ul li a{
+    color: var(--color-light);
+}
+
+.footer_nav ul li a:hover{
+    color:var(--color-dark);
+    transition: 0.7s;
+}
+
