@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Знайомство з Богами</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <style>
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="body-main">
+    <header>
+        <nav class="main_nav">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="god.html">Боги</a></li>
+                <li><a href="forest_creatures.html">Лісові істоти</a></li>
+                <li><a href="meetyourmakers.html">Знайомство з Богами</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main centered">
+        <div class="name_site">
+            <h2 style="text-align: center;">Знайомство з </h2>
+            <h2 style="text-align: center;">Богами! </h2>
+        </div>
+        <section class="section section__left">
+            <div class="text"> 
+                <h5 style="transform: translateX(43%);">
+                    Познайомтеся зі слов’янськими богами ближче 😉
+                </h5>
+            </div>
+        </section>
+        
+<div style="transform: translateX(35%);">
+    <button class="button-54">Дізнатися більше про богів</button>
+        <table class ="table_example">
+            <tr>
+                <th>Бог</th>
+                <th>Опис</th>
+            </tr>
+            <tr>
+                <td>Перун</td>
+                <td>Покровитель Блискавок</td>
+            </tr>
+            <tr>
+                <td>Дажбог</td>
+                <td>Уособлення Сонця</td>
+            </tr>
+            <tr>
+                <td>Стрибог</td>
+                <td>Бог Вітру</td>
+            </tr>
+            <tr>
+                <td>Сварог</td>
+                <td>Бог Вогню та ковальства</td>
+            </tr>
+            <tr>
+                <td>Велес</td>
+                <td>Володар Землі</td>
+            </tr>
+            <tr>
+                <td>Мокоша</td>
+                <td>Богиня Родючості</td>
+            </tr>
+            <tr>
+                <td>Чорнобог та Білобог</td>
+                <td>Правителі світла та темряви</td>
+            </tr>
+            <tr>
+                <td>Ярило</td>
+                <td>Бог веснянього Сонця</td>
+            </tr>
+            <tr>
+                <td>Мара</td>
+                <td>Богиня Води та Підземного світу</td>
+            </tr>
+            <tr>
+                <td>Леля</td>
+                <td>Богиня Кохання</td>
+            </tr>
+        </table>
+    </div>
+    <section class="section section__left">
+        <div class="text"> 
+            <h5>
+                Заповніть форму, щоб назначити особисту зустріч з богами!
+                Попросіть дощу в Перуна чи сонця в Дажбога, чи можливо, ви захочете,
+                 щоб блискавка Перуна вдарила у ваших недругів? 
+                 Велес зможе допомогти з гарним урожаєм, багатством, або навіть організувати зустріч з померлими родичами! 
+                 👀Богиня кохання Леля та інші слов’янські боги теж можуть вас зацікавити, тож не гайте часу та заповніть форму:
+            </h5>
+        </div>
+    </section>
+    <form action="скрипт_обработки_форм" method="post">
+        <h5>Заповніть дані про себе</h5>
+        <label for="name">Ім'я</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Електронна пошта</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <h5>З яким богом бажаєте консультацію?</h5>
+        <label for="god">Оберіть бога:</label>
+        <select id="god" name="god" onchange="updateGodServices()">
+            <option value="Перун">Перун</option>
+            <option value="Дажбог">Дажбог</option>
+            <!-- Додайте інших богів -->
+        </select><br><br>
+
+
+        <label for="god-service">Оберіть послугу:</label>
+        <select id="god-service" name="god" onchange="updatePrice()">
+            <option value="Перун">Перун</option>
+            <option value="Дажбог">Дажбог</option>
+        </select><br><br>
+
+        <label for="datepicker">Дата консультації</label>
+        <input type="date" id="datepicker" name="datepicker"><br><br>
+
+        <label for="message">Текстове поле для побажань</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <h5 id="price">Дана послуга вам буде коштувати 10 молитв.</h5>
+
+        <button type="submit" class="button-54">Відправити</button>
+    </form>
+    <footer class="footer">
+        <nav class="footer_nav">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="god.html">Боги</a></li>
+                <li><a href="forest_creatures.html">Лісові істоти</a></li>
+                <li><a href="meetyourmakers.html">Знайомство з Богами</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h4>Виконала група:<br>
+            ???</h4>
+        </div>
+    </footer>
+        <script src="js/meetyourmakers.js"></script>
+    </main>
+</body>
+</html>
