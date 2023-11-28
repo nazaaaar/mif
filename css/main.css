@@ -102,8 +102,33 @@
 /* !page4 */
 
 
+.table_example {
+    width: 30%;
+    border-collapse: collapse;
+    background-color: #1B062B;
+    margin: 2% 0;
+    color: #FFE4F1;
+  }
+  .table_example thead{
+    color: #F02786;
+  }
+  .table_example th, td {
+    border: 2px solid #F02786;
+    padding: 8px;
+    text-align: center;
+  }
+  .table_example td:hover{
+    background-color: #300e4a;
+  }
+  
+  .result_table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
 
-.inputs{
+  .inputs{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
@@ -117,14 +142,30 @@
   }
   
   .name, .email{
-    font-size: 24px;
+    font-size: 14px;
     height: 20px;
     width: 310px;
-    padding: 20px 90px;
+    padding: 20px 20px;
     background: linear-gradient(#1B062B, #1B062B) padding-box,
                 linear-gradient(to right, #CB8FFF, #F02786) border-box;
     border-radius: 12px;
     border: 4px solid transparent;
     color: #FFE4F1;
-    
+    font-family: Kharkiv Tone;    
+  }
+
+  .selector{
+    color: #FFE4F1;
+    font-family: Kharkiv Tone;    
+    font-size: 14px;
+    padding: 20px 20px;
+    background: linear-gradient(#1B062B, #1B062B) padding-box,
+                linear-gradient(to right, #CB8FFF, #F02786) border-box;
+    border-radius: 12px;
+    border: 4px solid transparent;
+  }
+
+  .selector option{
+    background-color: #1B062B;
+    font-size: 14px;
   }

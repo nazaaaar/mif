@@ -16,6 +16,182 @@
             text-align: center;
         }
     </style>
+</head>
+<body class="body-main">
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="god.html">Боги</a></li>
+                    <li><a href="forest_creatures.html">Лісові істоти</a></li>
+                    <li><a href="meetyourmakers.html">Знайомство з Богами</a></li>
+                    <label for="check" class="close-menu"><i class="fa fa-times" aria-hidden="true"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
+            </ul>
+        </nav>
+    </header>
+    <main class="main centered">
+        <div class="name_site">
+            <h2 style="text-align: center;">Знайомство з </h2>
+            <h2 style="text-align: center;">Богами! </h2>
+        </div>
+        <section class="section section__left">
+            <div class="text"> 
+                <h5 style="transform: translateX(43%);">
+                    Познайомтеся зі слов’янськими богами ближче 😉
+                </h5>
+            </div>
+        </section>
+        
+<div style="transform: translateX(35%);">
+    <button class="button-54"><h5 class="button_h5">Дізнатися більше про богів</h5></button>
+        <table class ="table_example">
+            <tr>
+                <th>Бог</th>
+                <th>Опис</th>
+            </tr>
+            <tr>
+                <td>Перун</td>
+                <td>Покровитель Блискавок</td>
+            </tr>
+            <tr>
+                <td>Дажбог</td>
+                <td>Уособлення Сонця</td>
+            </tr>
+            <tr>
+                <td>Стрибог</td>
+                <td>Бог Вітру</td>
+            </tr>
+            <tr>
+                <td>Сварог</td>
+                <td>Бог Вогню та ковальства</td>
+            </tr>
+            <tr>
+                <td>Велес</td>
+                <td>Володар Землі</td>
+            </tr>
+            <tr>
+                <td>Мокоша</td>
+                <td>Богиня Родючості</td>
+            </tr>
+            <tr>
+                <td>Чорнобог та Білобог</td>
+                <td>Правителі світла та темряви</td>
+            </tr>
+            <tr>
+                <td>Ярило</td>
+                <td>Бог веснянього Сонця</td>
+            </tr>
+            <tr>
+                <td>Мара</td>
+                <td>Богиня Води та Підземного світу</td>
+            </tr>
+            <tr>
+                <td>Леля</td>
+                <td>Богиня Кохання</td>
+            </tr>
+        </table>
+    </div>
+    <section class="section section__left">
+        <div class="text">
+            <h4>
+                Заповніть форму, щоб назначити особисту зустріч з богами!
+            </h4>
+            <h5>
+                Попросіть дощу в Перуна чи сонця в Дажбога, чи можливо, ви захочете,
+                 щоб блискавка Перуна вдарила у ваших недругів? 
+                 Велес зможе допомогти з гарним урожаєм, багатством, або навіть організувати зустріч з померлими родичами! 
+                 👀Богиня кохання Леля та інші слов’янські боги теж можуть вас зацікавити, тож не гайте часу та заповніть форму:
+            </h5>
+        </div>
+    </section>
+    <form action="скрипт_обработки_форм" method="post">
+        <section class="inputs">
+            <h4>Заповніть дані про себе</h4>
+            <div class="input_sect">
+                <label for="name">
+                    <input class="name" type="text" placeholder="Введіть ім’я" required id="name" name="name">
+                </label>
+            
+                <label for="email">
+                    <input class="email" type="email" placeholder="Електронна адреса" required id="email" name="email">
+                </label>
+            </div>
+
+            
+        </section>
+        <section class="abuot_god">
+            <h4>З яким богом бажаєте консультацію?</h4>
+            <div class="input_sect">
+                <label for="god">
+                    <select class="selector" id="god" name="god" onchange="updateGodServices()">
+                        <option value="Перун">Оберіть Бога</option>
+                        <option value="Дажбог">Перун</option>
+                        <option value="Дажбог">Дажбог</option>            
+                        <option value="Дажбог">Стрибог</option>
+                        <option value="Дажбог">Сварог</option>
+                        <option value="Дажбог">Велес</option>
+                        <option value="Дажбог">Мокоша</option>
+                        <option value="Дажбог">Чорнобог та Білобог</option>
+                        <option value="Дажбог">Ярило</option>
+                        <option value="Дажбог">Мара</option>
+                        <option value="Дажбог">Леля</option>
+                    </select>
+                </label>
+
+                <label for="god-service">
+                    <select class="selector" id="god-service" name="god" onchange="updatePrice()">
+                        <option value="Перун">Оберіть послугу:</option>
+                    </select>
+                </label>
+    
+            
+        </section>             
+        <button type="submit" class="button-54"><h5 class="button_h5">Відправити</h5></button>          
+    </form>
+
+    
+    <footer class="footer">
+        <nav class="footer_nav">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="god.html">Боги</a></li>
+                <li><a href="forest_creatures.html">Лісові істоти</a></li>
+                <li><a href="meetyourmakers.html">Знайомство з Богами</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h4>Виконала група:<br>
+            ???</h4>
+        </div>
+    </footer>
+        <script src="js/meetyourmakers.js"></script>
+    </main>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Знайомство з Богами</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <style>
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
     <script src="js/meetyourmakers.js"></script>
     <script src="https://use.fontawesome.com/08c46a2805.js"></script>
 </head>
@@ -49,8 +225,8 @@
         </section>
         
 <div style="transform: translateX(35%);">
-    <button class="button-54">Дізнатися більше про богів</button>
-        <table class ="table_example">
+    <button class="button-54" id="gods-table-button" onclick="toggleTable()" >Дізнатися більше про богів</button>
+        <table class ="table_example"  id="godsTable">
             <tr>
                 <th>Бог</th>
                 <th>Опис</th>
@@ -108,10 +284,10 @@
             </h5>
         </div>
     </section>
-    <form action="скрипт_обработки_форм" method="post">
+    <form onsubmit="submitForm()" id="myForm" method="post">
         <h5>Заповніть дані про себе</h5>
         <label for="name">Ім'я</label>
-        <input type="text" id="name" name="name"><br><br>
+        <input type="text" id="name" name="name" minlength="3" maxlength="50"><br><br>
 
         <label for="email">Електронна пошта</label>
         <input type="email" id="email" name="email"><br><br>
@@ -121,18 +297,26 @@
         <select id="god" name="god" onchange="updateGodServices()">
             <option value="Перун">Перун</option>
             <option value="Дажбог">Дажбог</option>
-            <!-- Додайте інших богів -->
+            <option value="Стрибог">Стрибог</option>
+            <option value="Сварог">Сварог</option>
+            <option value="Велес">Велес</option>
+            <option value="Мокоша">Мокоша</option>
+            <option value="Чорнобог та Білобог">Чорнобог та Білобог</option>
+            <option value="Ярило">Ярило</option>
+            <option value="Мара">Мара</option>
+            <option value="Леля">Леля</option>
+
         </select><br><br>
 
 
         <label for="god-service">Оберіть послугу:</label>
-        <select id="god-service" name="god" onchange="updatePrice()">
-            <option value="Перун">Перун</option>
-            <option value="Дажбог">Дажбог</option>
+        <select id="god-service" name="god-service" onchange="updatePrice()">
+            <option value="15">Виклик грому та блискавки</option>
+            <option value="25">Захист від стихійних лих</option>
         </select><br><br>
 
         <label for="datepicker">Дата консультації</label>
-        <input type="date" id="datepicker" name="datepicker"><br><br>
+        <input type="date" id="datepicker" name="datepicker" onchange="updatePrice()"><br><br>
 
         <label for="message">Текстове поле для побажань</label><br>
         <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
@@ -141,6 +325,7 @@
 
         <button type="submit" class="button-54">Відправити</button>
     </form>
+        <h5 id="successMessage" style="display: none;"></h5>
     <footer class="footer">
         <nav class="footer_nav">
             <ul>
@@ -158,4 +343,4 @@
 
     </main>
 </body>
-</html>
+</html> -->
