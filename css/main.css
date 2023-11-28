@@ -101,7 +101,9 @@
 
 /* !page4 */
 
-
+.centered{
+    margin: 0 0 0 0;
+}
 .table_example {
     width: 30%;
     border-collapse: collapse;
