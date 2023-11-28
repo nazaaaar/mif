@@ -4,6 +4,11 @@
         height: 40%;
       }
 }
+@media screen and (max-width:1200px){
+    .section{
+        gap: 90px;
+    }
+}
 @media screen and (max-width:1000px){
     .slavic_mif img{
         width: 50%;
@@ -11,5 +16,8 @@
     }
     .footer{
         height: 160px;
+    }
+    .section{
+        gap: 40px;
     }
 }
