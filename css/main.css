@@ -32,9 +32,14 @@
 }
 .section{
     display: flex;
-    flex-direction: row;
     gap: 180px;
     margin-top: 60px;
+}
+.section__left{
+    flex-direction: row;
+}
+.section__right{
+    flex-direction: row-reverse;
 }
 .card{
     display: flex;
