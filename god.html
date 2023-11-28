@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <title>Боги</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/08c46a2805.js"></script>
     <!-- figma: https://www.figma.com/proto/chZqWepCAYKDC2kezg0On3/%D0%A1%D0%BB%D0%B5%D0%B9-%D1%81%D0%B0%D0%B9%D1%82%D0%B8%D0%BA?page-id=0%3A1&type=design&node-id=6-22&viewport=-520%2C113%2C0.43&t=75JtmBUssEphVdX4-1&scaling=scale-down&starting-point-node-id=6%3A22&mode=design -->
 </head>
 <body class="body-main">
     <header>
-        <nav class = "main_nav">
-            <ul>
-                <li><a href="index.html">Головна</a></li>
-                <li><a href="god.html">Боги</a></li>
-                <li><a href="forest_creatures.html">Лісові істоти</a></li>
-                <li><a href="meetyourmakers.html">Знайомство з Богами</a></li>
+        <nav>
+            <ul class='nav-bar'>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="god.html">Боги</a></li>
+                    <li><a href="forest_creatures.html">Лісові істоти</a></li>
+                    <li><a href="meetyourmakers.html">Знайомство з Богами</a></li>
+                    <label for="check" class="close-menu"><i class="fa fa-times" aria-hidden="true"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
             </ul>
         </nav>
     </header>

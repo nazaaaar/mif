@@ -1,3 +1,3 @@
 function navigateToSecondPage() {
-    window.location.href = "forest_creatures.html"; 
+    window.location.href = "meetyourmakers.html"; 
 }
