@@ -9,6 +9,11 @@
         gap: 90px;
     }
 }
+@media screen and (max-width:1325px){
+    /* .text{
+        font-size: 6px;
+    } */
+}
 @media screen and (max-width:1000px){
     .slavic_mif img{
         width: 50%;
